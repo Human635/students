@@ -9,42 +9,43 @@
 <body>
     <div class="container">
 
-        <div class="box">
-            <h1>StudentsList</h1>
-        </div>
-        <div class="box">
-        </div>
+      <div class="box">
+          <h1>StudentsList</h1>
+      </div>
+      <div class="box">
+      </div>
 
-        <div>
-            Добавление студентов:
-        </div>
-
+      <div>
+          Добавление студентов:
+      </div>
+      <form action="">
         <div class="form-input-wrapper">
           <div class="form-input-wrapper">
             <label for="student-name">Name</label>
-            <input type="text" id="stName"  placeholder="NAME" required>
+            <input type="text" id="stName" required placeholder="NAME" >
           </div>
           <div class="form-input-wrapper">
             <label for="student-surname">Surname</label>
-            <input type="text" id="stSurname"  placeholder="SURNAME" required>
+            <input type="text" id="stSurname" required placeholder="SURNAME" >
           </div>
         </div>
-
-
+        
+        
         <div class="form-submit-box">
-            <button class="add-st">Добавить студента</button>
-            <button class="clear-list">Очистить список</button>
+          <button class="add-st">Добавить студента</button>
+          <button class="clear-list">Очистить список</button>
+        </div>
+        <div class="box products-title">
+          <h4>Список добавленных студентов:</h4>
+        </div>
+
+        <div class="students-wrapper">
+          <div class="students-list">
+            <div class="student-human"></div>
           </div>
-          <div class="box products-title">
-            <h4>Список добавленных студентов:</h4>
-          </div>
-  
-          <div class="students-wrapper">
-            <div class="students-list">
-              <div class="student-human"></div>
-            </div>
-          </div>
+        </div>
+      </form>
     </div>
     <script src="script.js"></script>
-</body>
+  </body>
 </html>
